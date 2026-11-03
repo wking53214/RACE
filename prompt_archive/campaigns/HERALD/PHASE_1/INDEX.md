@@ -1,13 +1,22 @@
-# HERALD PHASE_1 PROMPT ARCHIVE
+# HERALD — Phase 1 Prompt Archive
 
-Store each generated PHASE_1 prompt in its own immutable version directory.
+- **Campaign:** HERALD
+- **Phase:** PHASE_1
+- **Archive status:** GENERATED
+- **Execution status:** NOT EXECUTED
 
-Each prompt version directory must contain:
+## Archived version
 
-- PROMPT.md — exact generated prompt.
-- RECORD.md — generation and execution context.
-- EVALUATION.md — completed only after actual execution.
+`HERALD-P1-001-v1/`
 
-Use the campaign-phase-sequence-version naming convention.
+- `PROMPT.md` — preserved source prompt.
+- `RECORD.md` — archive metadata, provenance, authorization boundary, and prompt hash.
+- `EVALUATION.md` — independent evaluation record; currently not executed.
 
-Never overwrite an archived prompt version.
+## Version policy
+
+The versioned prompt is preserved as an immutable historical artifact. Substantive prompt revisions require a new version directory. Do not silently rewrite an archived prompt.
+
+## Execution boundary
+
+Archiving is not approval or execution. Phase 1 requires its actual Phase 0 input package and must satisfy the prompt's readiness gate. Phase 2 requires actual Phase 1 outputs and explicit human approval.
