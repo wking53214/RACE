@@ -14,8 +14,8 @@ Use the campaign-phase-sequence-version naming convention.
 
 | Prompt ID | Purpose | Status |
 |---|---|---|
-| HERALD-P0-002-v1 | Independent discovery, architectural reassessment, security and dependency review, CNS/UAI-1 assessment, and Phase 1 kickoff | GENERATED — NOT EXECUTED; PENDING HUMAN REVIEW |
-| HERALD-P0-001-v1 | Initial RACE Phase 0 discovery, red-team investigation, and blueprint prompt | HISTORICAL — PRESERVED; NOT EXECUTED; P0-002 PENDING PUBLICATION |
+| HERALD-P0-002-v1 | Independent discovery, architectural reassessment, security and dependency review, CNS/UAI-1 assessment, and Phase 1 kickoff | PUBLISHED — NOT EXECUTED; PENDING EXECUTION AUTHORIZATION |
+| HERALD-P0-001-v1 | Initial RACE Phase 0 discovery, red-team investigation, and blueprint prompt | SUPERSEDED — PRESERVED AS HISTORICAL; NOT EXECUTED |
 
 The current candidate is HERALD-P0-002-v1. Its registration does not constitute approval or execution.
 
