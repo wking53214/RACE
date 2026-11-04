@@ -1,5 +1,5 @@
 # RACE
-## Red-Team Analysis, Construction & Evaluation
+## Role, Action, Context, Expectation
 
 **A governed framework for turning human objectives into disciplined, mission-specific AI execution prompts.**
 

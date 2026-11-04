@@ -1,5 +1,5 @@
 # RACE CORE
-## Red-Team Analysis, Construction & Evaluation
+## Role, Action, Context, Expectation
 
 Version: 1.0
 Status: Initial Foundation
