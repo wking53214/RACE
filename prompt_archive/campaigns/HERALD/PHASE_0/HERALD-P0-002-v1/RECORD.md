@@ -46,7 +46,7 @@ The prompt specifies three permanent seats:
 - Mission assignment: Adversarial examination of security, trust, assumptions, attack surfaces, failure modes, and unsupported claims.
 - Formal identity and capability traceability: Verify against the current RACE baseline.
 
-### MacG — Seat name
+### MacG: Seat name
 
 - Prompt wording: MacG (renamed from "MacGyver" to "MacG" on 2026-11-03 at William N. King's direction; the originally supplied prompt said MacGyver).
 - Established RACE seat identifier: MacG (MACG-001).
