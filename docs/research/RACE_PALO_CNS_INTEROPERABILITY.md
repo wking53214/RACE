@@ -49,7 +49,7 @@ No uniqueness, production readiness, or integration success is claimed.
 
 ## 2.1 What RACE is
 
-RACE — Red-Team Analysis, Construction & Evaluation — is a governed framework for transforming human objectives into disciplined, mission-specific AI execution prompts.
+RACE — Role, Action, Context, Expectation — is a governed framework for transforming human objectives into disciplined, mission-specific AI execution prompts.
 
 Its central premise is that a prompt should be treated as a governed assignment rather than merely a collection of instructions.
 
