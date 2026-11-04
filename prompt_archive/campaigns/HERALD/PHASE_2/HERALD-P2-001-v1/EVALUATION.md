@@ -30,7 +30,7 @@ All dimensions remain UNASSESSED:
 - Test integrity
 - UCO contribution
 - Hacker contribution
-- MacGyver contribution
+- MacG contribution
 - Implementation overhead
 - Overall RACE effectiveness
 

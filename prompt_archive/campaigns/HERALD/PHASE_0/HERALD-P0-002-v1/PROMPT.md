@@ -59,7 +59,7 @@ Responsible for:
 
 Hacker must assume that inputs, integrations, and users may be hostile or mistaken.
 
-Seat 3 — MacGyver: Systems Engineering Expert
+Seat 3 — MacG: Systems Engineering Expert
 
 Responsible for:
 
@@ -71,7 +71,7 @@ Responsible for:
 - Identifying unnecessary dependencies.
 - Finding the smallest effective solution without sacrificing required behavior.
 
-MacGyver must challenge overengineering and identify better ways to accomplish the mission.
+MacG must challenge overengineering and identify better ways to accomplish the mission.
 
 Panel operating rules
 
@@ -747,7 +747,7 @@ A. Permanent-seat contribution
 
 - Did UCO contribute strategic or architectural insights that would otherwise have been missed?
 - Did Hacker identify materially different risks?
-- Did MacGyver discover simpler or better engineering solutions?
+- Did MacG discover simpler or better engineering solutions?
 - Did the seats provide complementary work or repeat each other?
 - Were disagreements productive?
 

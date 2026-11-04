@@ -23,7 +23,7 @@
 | Human authorization boundaries | UNASSESSED |
 | UCO contribution | UNASSESSED |
 | Hacker contribution | UNASSESSED |
-| MacGyver contribution and canonical seat reconciliation | UNASSESSED |
+| MacG contribution | UNASSESSED |
 | Operational overhead and complexity | UNASSESSED |
 | Overall RACE effectiveness | UNASSESSED |
 

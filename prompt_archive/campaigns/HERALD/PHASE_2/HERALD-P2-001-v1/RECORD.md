@@ -32,7 +32,7 @@ Delivery of this prompt does not constitute implementation authorization.
 
 - UCO — UCO-001
 - Hacker — HACKER-001
-- MacGyver — identified as written in the supplied Phase 2 prompt; canonical RACE registry currently identifies the permanent seat as MacG (MACG-001). Reconciliation required before execution.
+- MacG (MACG-001), renamed from "MacGyver" to "MacG" on 2026-11-03 at William N. King's direction.
 
 No claim of independent AI-agent execution is made.
 
@@ -58,7 +58,8 @@ No claim of independent AI-agent execution is made.
 
 ## 9. Integrity
 
-- PROMPT.md SHA-256: 65d105c1923ae56aa43c82bbee82bccf937592303df93f23e9ec0d2cb115b688
+- PROMPT.md SHA-256: 8ce5a34e4ee58fe6bc2207b652046d41e1d2f5321fed45787d8b14b5100ef3ae
+- Original supplied PROMPT.md SHA-256 (before the 2026-11-03 MacG rename): 65d105c1923ae56aa43c82bbee82bccf937592303df93f23e9ec0d2cb115b688
 
 ## 10. Governing Note
 
