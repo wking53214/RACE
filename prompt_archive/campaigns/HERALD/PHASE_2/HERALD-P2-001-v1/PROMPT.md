@@ -124,7 +124,7 @@ Must verify:
 - New attack surfaces are identified.
 - Downstream consumers cannot silently accept invalid or forged information.
 
-MacGyver — Systems Engineering Expert
+MacG — Systems Engineering Expert
 
 Owns the practical engineering challenge.
 
@@ -706,7 +706,7 @@ Hacker
 - Did security challenge materially improve the finished work?
 - Did it detect weaknesses that conventional tests missed?
 
-MacGyver
+MacG
 
 - Did engineering analysis reduce complexity?
 - Did it identify better or smaller implementations?
@@ -789,7 +789,7 @@ Can evidence, claims, confirmation, and provenance be independently trusted to t
 
 Which trust assumptions remain external?
 
-MacGyver final challenge
+MacG final challenge
 
 Is the resulting system simpler, more maintainable, and more effective?
 

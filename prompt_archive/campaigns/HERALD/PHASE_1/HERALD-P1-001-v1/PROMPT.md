@@ -123,7 +123,7 @@ Challenge:
 - Whether the migration introduces temporary security weaknesses.
 - Whether downstream systems could accept invalid or forged information.
 
-MacGyver — Systems Engineering Expert
+MacG — Systems Engineering Expert
 
 Challenge:
 
@@ -936,7 +936,7 @@ Permanent-seat effectiveness
 
 - Did UCO identify strategic or system-level solutions?
 - Did Hacker materially improve the proposed trust and security architecture?
-- Did MacGyver find simpler or better implementations?
+- Did MacG find simpler or better implementations?
 - Did the seats challenge each other effectively?
 - Did their contributions remain distinct?
 

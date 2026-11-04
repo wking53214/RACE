@@ -46,12 +46,12 @@ The prompt specifies three permanent seats:
 - Mission assignment: Adversarial examination of security, trust, assumptions, attack surfaces, failure modes, and unsupported claims.
 - Formal identity and capability traceability: Verify against the current RACE baseline.
 
-### MacGyver — Naming discrepancy requiring reconciliation
+### MacG — Seat name
 
-- Prompt wording: MacGyver.
+- Prompt wording: MacG (renamed from "MacGyver" to "MacG" on 2026-11-03 at William N. King's direction; the originally supplied prompt said MacGyver).
 - Established RACE seat identifier: MacG (MACG-001).
 - Mission assignment: Practical alternatives, resourcefulness, simplification, and unconventional problem-solving.
-- Disposition: Preserve the supplied prompt unchanged. Do not silently rename the seat during archive creation. Resolve the naming discrepancy through RACE governance if required.
+- Disposition: Resolved. The seat name is MacG everywhere in this repository. The rename changed PROMPT.md, so its integrity hash changed (see Integrity).
 
 - Additional permanent seats: Not authorized by the prompt.
 - Separate AI execution by expert: Not established; no independent-agent claim is made.
@@ -92,9 +92,10 @@ The prompt specifies three permanent seats:
 
 ## 9. Integrity
 
-- PROMPT.md SHA-256: 1e67444a261ec318be9b5dcfc602358d4605a2936ddf653e9c153058aafe0aea
+- PROMPT.md SHA-256: 06759d951d9a4f8e45659b7ba52291421f045e59843d4ae40827047e9c52441f
+- Original supplied PROMPT.md SHA-256 (before the 2026-11-03 MacG rename): 1e67444a261ec318be9b5dcfc602358d4605a2936ddf653e9c153058aafe0aea
 - Hash supplied from local SHA-256 calculation on 2026-11-03.
-- PROMPT.md local size: 29,132 bytes.
+- PROMPT.md local size: 29,120 bytes (after rename; 29,132 bytes before).
 - PROMPT.md local line count: 876.
 - PROMPT.md local word count: 3,969.
 - Exact correspondence to the original chat text: Not independently byte-compared.
