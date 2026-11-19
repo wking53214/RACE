@@ -11,6 +11,18 @@ RACE is built around a simple principle:
 
 RACE is intended to work across different missions and repositories. Its governing requirements remain consistent while mission-specific context, specialist expertise, and technical requirements change.
 
+## Role Within ≡TACK
+
+- **What it is.** A documentation framework (Role, Action, Context, Expectation) for writing governed, phased AI work prompts. It contains no executable code and no tests.
+- **Authority matrix.** Policy definition, as text only: `RACE_CORE.md`, the four protocols and the evaluation standard state the rules a campaign is meant to follow. In part, and only as documents: evaluation (the rating dimensions, and four filled evaluation records that all say NOT EXECUTED), evidence generation (the prompt records and the UCO version manifest) and evidence verification (the SHA-256 values recorded for one archived prompt and for the three UCO files can be recomputed by hand; all four matched on 2026-11-18, VERIFIED). No enforcement, authorization, authentication, transport or observability, because nothing here runs. Authorization is a human decision recorded under `protocols/AUTHORIZATION_PROTOCOL.md`.
+- **The name.** "RACE" is used for more than one thing in this library, and only the first is in this repository. (1) This framework: Role, Action, Context, Expectation, with three phases and three permanent seats. (2) The "STACK RACE Prompt Architecture", a ten-role research design for the Source-First Discovery Program. It is kept in the discovery-records repository, with a copy in the Books repository, whose app is titled "RACE Desk". (3) "Wild Race", a sample app name in test files that came with the tool that generated the Books app. Nothing in this repository defines or mentions the second or the third (INSPECTED 2026-11-18).
+- **Does not own.** Any repository's code or governance logic, or any automated check (see "Current Project Status" for what is not established).
+- **Depends on.** Nothing at runtime. **Depended on by.** UNKNOWN (other repositories may follow its phase model; not inspected here).
+- **Verified versus declared.** Everything here is declared documentation. No end-to-end campaign has been validated, per the status section.
+- **Fail behavior.** Not applicable: nothing here runs, so nothing fails open or closed. A misread protocol would fail only through the people following it.
+
+Not run: no tests exist. The `docs/` directory (including `docs/research`) is not in the repository map below.
+
 ## What RACE Does
 
 RACE provides a structured process for:
@@ -29,7 +41,7 @@ RACE distinguishes prompt generation from prompt execution. Producing a prompt d
 
 ## The Three-Phase Operating Model
 
-### Phase 0 — Discovery, Investigation, and Blueprint
+### Phase 0: Discovery, Investigation, and Blueprint
 
 **Question: What is actually required, what is true about the current situation, and what should be done?**
 
@@ -50,7 +62,7 @@ It includes:
 
 Phase 0 is investigative. It does not authorize implementation.
 
-### Phase 1 — Controlled Construction
+### Phase 1: Controlled Construction
 
 **Question: How should the approved design be carried out without exceeding its authorization?**
 
@@ -69,7 +81,7 @@ It includes:
 
 Approval of a plan is not blanket authorization for unrelated changes, external actions, commits, pushes, or deployments.
 
-### Phase 2 — Verification, Adversarial Retesting, and Closure
+### Phase 2: Verification, Adversarial Retesting, and Closure
 
 **Question: Did the result actually satisfy the approved requirements, and what evidence supports that conclusion?**
 
@@ -93,7 +105,7 @@ Phase 2 distinguishes independent verification from self-review. A separate prom
 
 Every RACE mission retains three permanent expert seats. Mission-specific specialists may supplement them, but may not replace them.
 
-### UCO — Universal Chief Officer
+### UCO: Universal Chief Officer
 
 The executive generalist and operational integrator.
 
@@ -139,9 +151,9 @@ The current documented expert baseline is:
 
 | Expert | Identity and capability status |
 |---|---|
-| UCO-001 — Universal Chief Officer | Identity v1.0, capability library v1.0, and operating doctrine v1.0 approved. Performance validation has not been performed. |
-| HACKER-001 — The Hacker | Permanent seat established. Formal identity and capability libraries not yet formalized. |
-| MACG-001 — MacG | Permanent seat established. Formal identity and capability libraries not yet formalized. |
+| UCO-001: Universal Chief Officer | Identity v1.0, capability library v1.0, and operating doctrine v1.0 approved. Performance validation has not been performed. |
+| HACKER-001: The Hacker | Permanent seat established. Formal identity and capability libraries not yet formalized. |
+| MACG-001: MacG | Permanent seat established. Formal identity and capability libraries not yet formalized. |
 
 Mission assignments do not silently change permanent identities. Selecting a capability for a mission does not establish that it was exercised, demonstrated, or successful.
 
@@ -260,18 +272,20 @@ These are implementation and validation questions, not conclusions that can be d
 
 The HERALD campaign profile is the initial reference campaign for developing and examining the repeatable process. Its presence does not, by itself, establish successful end-to-end execution.
 
+Note added 2026-11-18 (INSPECTED): the archived HERALD prompts do not use the phase numbers the way this README and `campaigns/HERALD/CAMPAIGN_PROFILE.md` do. Under `prompt_archive/campaigns/HERALD/`, the Phase 1 prompt is research and solution design with no code changes allowed, and the Phase 2 prompt is the implementation, described there as the first phase allowed to change production code. In this README, Phase 1 is controlled construction and Phase 2 is verification and closure. No file in the repository records the difference. All four archived prompts are marked NOT EXECUTED.
+
 ## Governing Documents
 
 The following documents define the project more fully:
 
-- `RACE_CORE.md` — governing requirements.
-- `ARCHITECTURE.md` — architectural relationships and phase responsibilities.
-- `experts/README.md` — expert library governance.
-- `experts/ASSEMBLY_PROTOCOL.md` — permanent panel assembly requirements.
-- `protocols/` — common operating protocols.
-- `evaluations/RACE_EVALUATION_STANDARD.md` — campaign evaluation criteria.
-- `prompt_archive/README.md` — prompt preservation and learning rules.
-- `CHANGELOG.md` — documented project history.
+- `RACE_CORE.md`: governing requirements.
+- `ARCHITECTURE.md`: architectural relationships and phase responsibilities.
+- `experts/README.md`: expert library governance.
+- `experts/ASSEMBLY_PROTOCOL.md`: permanent panel assembly requirements.
+- `protocols/`: common operating protocols.
+- `evaluations/RACE_EVALUATION_STANDARD.md`: campaign evaluation criteria.
+- `prompt_archive/README.md`: prompt preservation and learning rules.
+- `CHANGELOG.md`: documented project history.
 
 ## Governing Principle
 
