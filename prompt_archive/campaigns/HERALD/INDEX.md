@@ -16,7 +16,7 @@ HERALD-P0-001-v1
 HERALD-P1-001-v1
 HERALD-P2-001-v1
 
-These are naming examples, not records of prompts already generated.
+These prompts have been generated and are stored in their phase directories: HERALD-P0-001-v1, HERALD-P0-002-v1, HERALD-P1-001-v1 and HERALD-P2-001-v1. Each RECORD.md marks its prompt NOT EXECUTED.
 
 ## Campaign Rule
 
